@@ -1,4 +1,4 @@
-/* homepage background image */
+/* Homepage background image */
 
 #homepage-bg {
     
@@ -8,12 +8,46 @@
     background-size: cover;
     
 }
-
-
-
-.order-up {
-    color: green;
-    background-color: yellow;
-
+ /* Button position */
+.location-up {
+       top:11%;
+       left:47%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background:yellow;
 }
+
+.nutrition-left {
     
+       top:50%;
+       left:10%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background:yellow;
+}
+
+.oreder-right {
+
+    top:50%;
+    left:80%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    background:yellow;
+}
+
+.about-down {
+
+    top:95%;
+    left:47%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    background:yellow;
+}
