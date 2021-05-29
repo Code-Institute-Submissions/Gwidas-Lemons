@@ -1,0 +1,19 @@
+/* homepage background image */
+
+#homepage-bg {
+    
+    background-image: url("../images/background/mainBack.jpg"); 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.order-up {
+    color: green;
+    background-color: yellow;
+
+}
+    
