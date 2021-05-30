@@ -8,26 +8,39 @@
     background-size: cover;
     
 }
+/* Location background image */
+#location-bg {
+    
+    background-image: url("../images/background/locationBg.jpg"); 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
  /* Button position */
 .location-up {
-       top:11%;
-       left:47%;
-       width:100px;
-       height:40px;
-       position: absolute;
-       z-index: 2;
-       background:yellow;
+    top:11%;
+    left:47%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    background:yellow;
+    font-family: 'Zilla Slab', serif;
 }
 
 .nutrition-left {
     
-       top:50%;
-       left:10%;
-       width:100px;
-       height:40px;
-       position: absolute;
-       z-index: 2;
-       background:yellow;
+    top:50%;
+    left:10%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    background:yellow;
+    font-family: 'Zilla Slab', serif;
 }
 
 .oreder-right {
@@ -39,6 +52,7 @@
     position: absolute;
     z-index: 2;
     background:yellow;
+    font-family: 'Zilla Slab', serif;
 }
 
 .about-down {
@@ -50,4 +64,5 @@
     position: absolute;
     z-index: 2;
     background:yellow;
+    font-family: 'Zilla Slab', serif;
 }
