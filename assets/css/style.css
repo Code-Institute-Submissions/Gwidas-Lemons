@@ -2,10 +2,12 @@
 
 #homepage-bg {
     
-    background-image: url("../images/background/mainBack.jpg"); 
+    background-image: url("../images/background/Lemonback.jpg"); 
     
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
     
 }
 /* Location background image */
@@ -15,54 +17,19 @@
     
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+   
+}
+
+.tr{
+    color:black;
+    opacity: 70%;
+}
+ 
+.text-color {
+    color: white;
+}
+.text-color :hover {
+    color:yellow !important;
     
-}
-
-
- /* Button position */
-.location-up {
-    top:11%;
-    left:47%;
-    width:100px;
-    height:40px;
-    position: absolute;
-    z-index: 2;
-    background:yellow;
-    font-family: 'Zilla Slab', serif;
-}
-
-.nutrition-left {
-    
-    top:50%;
-    left:10%;
-    width:100px;
-    height:40px;
-    position: absolute;
-    z-index: 2;
-    background:yellow;
-    font-family: 'Zilla Slab', serif;
-}
-
-.oreder-right {
-
-    top:50%;
-    left:80%;
-    width:100px;
-    height:40px;
-    position: absolute;
-    z-index: 2;
-    background:yellow;
-    font-family: 'Zilla Slab', serif;
-}
-
-.about-down {
-
-    top:95%;
-    left:47%;
-    width:100px;
-    height:40px;
-    position: absolute;
-    z-index: 2;
-    background:yellow;
-    font-family: 'Zilla Slab', serif;
 }
