@@ -1,15 +1,24 @@
 /* Homepage background image */
 
+
+body, html {
+    height: 100%;
+}
+
 #homepage-bg {
     
     background-image: url("../images/background/Lemonback.jpg"); 
     
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+  }
+  
+  
     
-    
-    
-}
+
 /* Location background image */
 #location-bg {
     
@@ -21,15 +30,16 @@
    
 }
 
-.tr{
-    color:black;
-    opacity: 70%;
-}
- 
-.text-color {
-    color: white;
-}
-.text-color :hover {
-    color:yellow !important;
+.nav-item {
+
+    font-family: 'Architects Daughter', cursive;
+    font-size:x-large;
     
+}
+.color-bl {
+    color:black;
+}
+
+.color-yl {
+    color: rgba(212, 212, 17, 0.993);
 }
