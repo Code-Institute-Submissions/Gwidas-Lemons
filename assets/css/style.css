@@ -19,16 +19,86 @@ body, html {
   
     
 
-/* Location background image */
-#location-bg {
+/* nutrition background image */
+#nutrition-bg {
     
     background-image: url("../images/background/locationBg.jpg"); 
     
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
    
 }
+
+/* Calculator*/
+
+.col {
+    padding: 50px;
+    margin-top: 2em;
+}
+  .calculator {
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    background-color: #000;
+    box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.61);
+  }
+  
+  
+  
+  .display {
+    width: 100%;
+    height: 80px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: rgba(212, 212, 17, 0.993);;
+    color: #000;
+    text-align: right;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+ 
+  
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  
+  
+  button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: #222;
+    color: #fff;
+    margin: 10px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .operator {
+    background-color: rgba(212, 212, 17, 0.993);
+    color: #000;
+  }
+  
+  
+  
+
+/* Navbar adjustments*/
 
 .nav-item {
 
