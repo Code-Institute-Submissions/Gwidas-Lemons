@@ -57,7 +57,7 @@ body, html {
 
 }
 
-/* Oreder background image */
+/* Oreder background image and details*/
 
 #order-bg {
   
@@ -70,6 +70,28 @@ body, html {
 
 
 }
+
+  .toggler { 
+  width: 500px; 
+  height: 200px; 
+  position: relative; 
+}
+  #button { 
+      padding: .5em 1em; 
+      text-decoration: none; 
+    }
+  #effect { 
+      width: 240px; 
+      height: 170px; 
+      padding: 0.4em; 
+      position: relative; 
+      background: rgb(245, 189, 5); 
+    }
+  #effect h3 { 
+      margin: 0; 
+      padding: 0.4em; 
+      text-align: center; 
+    }
 
 /* Calculator*/
 
@@ -118,7 +140,7 @@ body, html {
     border: none;
     outline: none;
     font-size: 1.5rem;
-    background-color: #222;
+    background-color: rgb(230, 197, 13);
     color: #fff;
     margin: 10px;
   }
@@ -153,3 +175,4 @@ body, html {
 .color-yl {
     color: rgba(212, 212, 17, 0.993);
 }
+

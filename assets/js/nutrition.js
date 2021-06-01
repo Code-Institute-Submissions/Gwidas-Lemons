@@ -12,7 +12,15 @@
         document.getElementById('sugar').innerHTML = sugarneeded;
         document.getElementById('lemons').innerHTML = lemonsneeded;
  }*/
+function lemonacalulator (){
+// get inputs
 
+// mathemetical fucntion 
+
+// updated the element 
+
+
+}
  
 const buttons = document.querySelectorAll('button');
 
