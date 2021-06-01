@@ -50,7 +50,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-<form method="POST" action="" id="form-aloc">
+<form  id="form-aloc">
 
 <table>
   <tbody>
@@ -60,17 +60,16 @@
         <p>How many liter of lemonade you would like to make?</p>
       </td>
       <td>
-         <input type="text" name="a" value="">
+         <input id="liters" type="text" name="a" value="">
       </td>
     </tr>
   </tbody>
 </table>
-<input type="radio" name="operation" value="var1">Mild sweet
-<input type="radio" name="operation" value="var1">Medium sweet
-<input type="radio" name="operation" value="var1">Very sweet 
+<input id="mild" type="radio" name="operation" onclick="lemonade(this.value)" >Mild sweet
+<input type="radio" name="operation" onclick="lemonade(this.value)" >Medium sweet
+<input type="radio" name="operation" onclick="lemonade(this.value)" >Very sweet 
 <p></p>
-<input type="submit" name="volume" value="Calculate">
-<input type="reset" name="volume" value="Cancel">
+
 </form>
 <h2>Result:</h2>
 <table class="table">
@@ -85,24 +84,24 @@
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td><p>Water</p></td>
+      <td id="water"></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <td colspan="2"></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
-<button type="button" class="btn btn-success">Order</button>
+<button  type="button" class="btn btn-success">Add to order</button>
     </div>
     <div class="col">
   Empty space
