@@ -35,6 +35,16 @@ body, html {
 .col-bg {
   color: white;
 }
+/*About background image */
+#about-bg {
+  background-image: url("../images/background/aboutBg.jpg"); 
+    
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 /* Calculator*/
 
