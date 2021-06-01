@@ -45,6 +45,31 @@ body, html {
   background-size: cover;
 
 }
+/* Location backgroudn image */
+#location-bg {
+
+  background-image: url("../images/background/location2bg.jpg"); 
+    
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Oreder background image */
+
+#order-bg {
+  
+  background-image: url("../images/background/orederbg.jpg"); 
+    
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
 
 /* Calculator*/
 
