@@ -1,5 +1,5 @@
  
- var wateronaliter = 800;
+ var wateronaliter = 0.8;
  var lemonsonaliter = 13;
  
  
@@ -18,17 +18,10 @@
           console.log(sugaronaliter)
 
         }
-        var liters = document.getElementById('liters').innerHTML;
-        console.log("liters: {0}", liters);
-        console.log("before calculation lemons: " + lemonsonaliter);
-        console.log("before calculation water: " + wateronaliter);
-        console.log("before calculation sugar: " + sugaronaliter);
+        var liters = document.getElementById('liters').value;
         var lemonsneeded = (lemonsonaliter * liters);
         var waterneeded = (wateronaliter * liters);
         var sugarneeded =  sugaronaliter * liters; 
-        console.log("after calculation lemons: " + lemonsneeded);
-        console.log("after calculation water: " + waterneeded);
-        console.log("after calculation sugar: " + sugarneeded);
         document.getElementById('water').innerHTML = waterneeded;
         document.getElementById('sugar').innerHTML = sugarneeded;
         document.getElementById('lemons').innerHTML = lemonsneeded;
