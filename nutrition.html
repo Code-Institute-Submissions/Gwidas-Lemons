@@ -47,55 +47,28 @@
 <p id=sugar>Sugar:</p>
 <p id=lemons>Lemons:</p>
 <button type="button" onclick="lemonade()"></button>-->
+<form method="POST" action="" id="form-aloc">
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-<!--Calculator in grid-->
-      <div class="calculator">
-            <input type="text" class="display" disabled>
-        
-        <div class="keys">
-          
-          <div class="row">
-            <button value="7">7</button>
-            <button value="8">8</button>
-            <button value="9">9</button>
-            <button value="+" class="operator">+</button>
-          </div>
-          <div class="row">
-            <button value="4">4</button>
-            <button value="5">5</button>
-            <button value="6">6</button>
-            <button value="-" class="operator">-</button>
-          </div>
-          <div class="row">
-            <button value="1">1</button>
-            <button value="2">2</button>
-            <button value="3">3</button>
-            <button value="*" class="operator">*</button>
-          </div>
-          <div class="row">
-            <button value="C" class="operator">C</button>
-            <button value="0">0</button>
-            <button value="/" class="operator">/</button>
-            <button value="=" class="operator">=</button>
-          </div>
-        </div>
-      </div>
-</div>
-<!-- Card -->
-<div class="card">
-  <div class="card-body">
-    Here you can calculate how much lemons for your lemonade you will need.
-  </div>
-</div>
-        <div class="col cal-bg">
-          
-      </div>
-  </div>
-</div>
-
+<table>
+  <tbody>
+    <h2>Lomonade Calculator</h2>
+    <tr>
+      <td>
+        <p>How many liter of lemonade you would like to make?</p>
+      </td>
+      <td>
+         <input type="text" name="a" value="">
+      </td>
+    </tr>
+  </tbody>
+</table>
+<input type="radio" name="operation" value="var1">Mild sweet
+<input type="radio" name="operation" value="var1">Medium sweet
+<input type="radio" name="operation" value="var1">Very sweet 
+<p></p>
+<input type="submit" name="volume" value="Calculate">
+<input type="reset" name="volume" value="Cancel">
+</form>
 
 
 
