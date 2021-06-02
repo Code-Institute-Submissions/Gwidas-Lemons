@@ -1,5 +1,5 @@
  
- var wateronaliter = 0.8;
+ /*var wateronaliter = 0.8;
  var lemonsonaliter = 13;
  
  
@@ -25,7 +25,7 @@
         document.getElementById('water').innerHTML = waterneeded;
         document.getElementById('sugar').innerHTML = sugarneeded;
         document.getElementById('lemons').innerHTML = lemonsneeded;
- }
+ }*/
 
  
 //function lemonadeCalculator (){
@@ -35,8 +35,32 @@
 
 // updated the element 
 
+// Recipe calculator with jquery
+var computeServing = function(serving) {
+  $('.js-recipeIngredient').each(function(index, item) {
+    $(item).children('span').html($(item)[0].dataset.basevalue * serving)
+  })
+}
+$('#servingInput').on('change', function() {
+  computeServing($(this).val())
+})
+$('.js-decreaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(currentServing - 1)
+  computeServing(currentServing - 1)
+})
+$('.js-increaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(parseInt(currentServing) + 1)
+  computeServing(parseInt(currentServing) + 1)
+})
+computeServing(1);
 
 
+
+$( function() {
+  $( "#lemon" ).accordion();
+} );
 
 
 
