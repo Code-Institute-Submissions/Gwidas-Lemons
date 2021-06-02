@@ -66,7 +66,7 @@ You will find plenty of information about lemons and you will get the chance to 
  # --------------------------------------------
  
  ## Wireframe
-* Home - [view](wireframe/Screenshot 2021-05-28 at 09.54.50.png)
+* Home - [view](wireframe/about.png)
 * The Biker - [view](assets/wireframe/TheBiker.png)
 * The Machine - [view](assets/wireframe/TheMachine.png)
 * The Culture - [view](assets/wireframe/TheCulture.png)
