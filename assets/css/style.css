@@ -183,7 +183,7 @@ body, html {
   border: 1px solid #777;
   border-radius: 3px;
   padding: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .Recipe-Ingredient {
   border-bottom: 1px solid black;
@@ -194,5 +194,10 @@ body, html {
 }
 .Recipe-Ingredient span {
   font-weight: 600;
+}
+
+#lemon {
+
+  font-size:x-large
 }
 
