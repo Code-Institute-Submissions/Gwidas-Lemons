@@ -6,7 +6,7 @@
 
 # Lemons
 
-![vision of twe wheels](assets/images/mockup/Mockup.png)
+
 
 ### "Delicious lemons".
 First of all who doesn't like lemons! 
