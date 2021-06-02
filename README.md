@@ -9,14 +9,10 @@
 ![vision of twe wheels](assets/images/mockup/Mockup.png)
 
 ### "Delicious lemons".
-I would like to share with you my passion for photography and old-school motorcycles. 
-On this website, you will get to know a bit about the culture of old-timers and witness the gorgeous looks of these incredible machines. 
-This is dedicated to individuals who love vintage motorcycles and admires photography. 
-You will have the opportunity to navigate through different sections.
-In the section " The Biker" you will see personas who I took pictures of during road trips or events. 
-Section "The Machine" you will get to admire old timers from the 30s and so on.
-Section "The Culture" is about the culture of the same mind when it comes to vintage machines, pictures were taken during parties, road trips, and different events. 
-So! Hope you will enjoy my very first webpage and see my passion the way I see it.
+First of all who doesn't like lemons! 
+Lemons are the source of health and happiness. 
+This webpage makes it easy to order lemons and maybe understand more about this amazing fruit.
+You will find plenty of information about lemons and you will get the chance to learn how to make Lemonade! 
 
  # --------------------------------------------
 
@@ -28,33 +24,30 @@ So! Hope you will enjoy my very first webpage and see my passion the way I see i
 
 * First Time Visitor Goals
         
-* As an individual who has interest in motorcycle industry and photography, I want to experience artistic approach to this industry.
-* As an individual who has interest in motorcycle industry and photography, I want to see easy meniu selection and understandable layout.
-* As an individual who has interest in motorcycle industry and photography, I want to see visual presentations of motorcycle.
-* As an individual who has interest in motorcycle industry and photography, I want to see the source of your experience, trusted links like soclia media and involvement in the culture.
-* As an individual who has interest in motorcycle industry and photography, I want to see what gear been used to take pictures. 
+* As an individual who has interest in health and benefits of vitamins, I want to see attractive pictures of lemons 
+* As an individual who has interest in health and benefits of vitamins, I want to see easy meniu selection and understandable layout.
+* As an individual who has interest in health and benefits of vitamins, I want to see visual presentations of lemons 
+* As an individual who has interest in health and benefits of vitamins, I want to see relevent infomation about this fruit 
 
 ## Returning Visitor Goals
 
-* I want to find relevent infomation about events and meeting places.
+* I want to find relevent infomation about where to get lemons.
 * I want to find most sutible way to get in touch if I have any questions.
 * I want to find links that I can benefit from.
-* I want to find new information about events. 
     
 
 ## Frequent User Goals 
 
-* I want to check for updated pcitures with different models.
+* I want to check for updated recipes
 * I want to find new links for relevent events
-* I want to find tips on photography gear.
-* I want to check for updated culture and where the events tale place. 
+* I want to check for locations and places where you can buy lemons 
 
 ## Owners site goals
 
-* Deliver users understadning of passion for motorcycles and photography.
+* Deliver users understadning of passion for heath and nutrition
 * Connect people whos has same interested in that field.
 * Show image owner capabilities.
-* Show life style of motorcycle enthusiast.
+* Show life style .
 
 
 
@@ -63,8 +56,8 @@ So! Hope you will enjoy my very first webpage and see my passion the way I see i
 
 ## Imagery
 
-* Black and white theme was created to bring better feeling of old times.
-* All imagery was taking by website owner.
+* 
+* All imagery was taking from [Picture website](https://unsplash.com/s/photos/lemon)
 
 
         
@@ -85,9 +78,8 @@ So! Hope you will enjoy my very first webpage and see my passion the way I see i
  ## Features
    * Resposive on all devices
    * Interective elements
-   * Black and White color theme images
+   * colorful images
    * About
-   * Contact form
    
 
 # --------------------------------------------  
@@ -96,12 +88,13 @@ So! Hope you will enjoy my very first webpage and see my passion the way I see i
 
   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
   * [CSS](https://en.wikipedia.org/wiki/CSS)
+  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
  
 # --------------------------------------------
 
 ## Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.1](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+1. [Bootstrap 5.0.1](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
    * Bootstrap was used to make better responsiveness and styling of the website.
 
 2. [Google Fonts](https://fonts.google.com/)
@@ -119,13 +112,11 @@ So! Hope you will enjoy my very first webpage and see my passion the way I see i
 6. [Balsamiq](https://balsamiq.com/)
     * Balsamiq was used to creat wireframes during design process.
 
-7. [wallpaperaccess](https://wallpaperaccess.com/old-newspaper)
-    * was used to create back ground image for "bike, machine, culture and about "
 
 # Testing 
 
 ## Lighthouse results:
-![vision of twe wheels](assets/images/lighthouse/lt-results.png)
+![Lemons](https://web.dev/measure/?gclid=Cj0KCQjw2NyFBhDoARIsAMtHtZ5mr5k8-PzX2OKD6MlyHZ10p_1ucmFTGb7DKe8SFnVDLrDxbmu361IaApOlEALw_wcB)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -141,26 +132,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         a. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
         b. The main point are made. with the hero image.
-        c. The users are presented with 6 ptions to easy navigate throught page.
+        c. The users are presented with 5 ptions to easy navigate throught page.
 
     ii. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         a. The site has been designed for a clear understanding for users, all options located in the same space with clear font and clear colors.
         b. At the bottom user will find clear usable icons for social media, user can use "home" to navigate back to the homepage. 
-        c. Contact page is designed to give the option to use for contacting the host with a possibility to leave a message.
+        
 
 
 ### Returning Visitor Goals:
 
         a. As a returining user i want to find updated pictures, maybe an option for a gallery in the Future. 
-        b. As a returining user i want to find links for events and more info on motorcycles.
-        c. As a returining user i want to find tip and trick on photography.
+        b. As a returining user i want to find links for more recipies.
+        
 
 ### Frequent User Goals: 
 
-        a. Frequent users will be able to find new information on photography equipment.
+        a. Frequent users will be able to find new information on Lemons.
         b. Frequent users will have the opportunity to view updated images.
-        c. Frequent users will be given more information about motorcycle builds.
+        c. Frequent users will be given more information about nutrition benefits.
 
 ### Further Testing:
 
@@ -175,3 +166,5 @@ d. Night mode on mac and windows.
 * [W3schools](https://www.w3schools.com/) - one of the best library of explanation and tutorials.
 * [Bootstrap](https://getbootstrap.com/) - Using this amazing library of codes it was a big help.
 * [Codeinstitute](https://codeinstitute.net/) - big thanks to code institute for creating this amazing program to learn coding !!!!!!
+* [Jquery](https://jquery.com/) - Using this amazing library of codes it was a big help.
+
