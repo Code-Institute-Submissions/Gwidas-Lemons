@@ -59,19 +59,7 @@ You will find plenty of information about lemons and you will get the chance to 
 * 
 * All imagery was taking from [Picture website](https://unsplash.com/s/photos/lemon)
 
-
-        
  
- 
- # --------------------------------------------
- 
- ## Wireframe
-* Home - [view](wireframe/about.png)
-* The Biker - [view](assets/wireframe/TheBiker.png)
-* The Machine - [view](assets/wireframe/TheMachine.png)
-* The Culture - [view](assets/wireframe/TheCulture.png)
-* About - [view](assets/wireframe/About.png)
-* Contact - [view](assets/wireframe/Contact.png)
 
 # --------------------------------------------
 
