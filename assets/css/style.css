@@ -210,11 +210,6 @@ margin: auto;
 }
 
 #mapid {
-  height: 180px;
+  min-height: 600px;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
