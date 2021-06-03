@@ -223,3 +223,22 @@ margin: auto;
   font-size: x-large;
   
 }
+
+.card-body {
+  background-color: yellow;
+  font-family: 'Architects Daughter', cursive;
+  font-size: x-large;
+  
+}
+
+.card {
+    height: 27.5em;
+    
+    overflow: scroll;
+   
+    
+}
+.lm-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
