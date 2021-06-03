@@ -213,3 +213,13 @@ margin: auto;
   min-height: 600px;
 }
 
+.form-label {
+  font-family: 'Architects Daughter', cursive;
+  font-size:x-large;
+}
+.form-control {
+  background-color: yellow;
+  font-family: 'Architects Daughter', cursive;
+  font-size: x-large;
+  
+}
