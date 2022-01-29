@@ -1,5 +1,3 @@
-
-
 // Recipe calculator 
 var computeServing = function(serving) {
   $('.js-recipeIngredient').each(function(index, item) {
@@ -26,6 +24,3 @@ computeServing(1);
 $( function() {
   $( "#lemon" ).accordion();
 } );
-
-
-
