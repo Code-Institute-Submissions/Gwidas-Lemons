@@ -1,15 +1,23 @@
+
+/*--------Navbar----------*/
+
 .navbar {
   font-size: large;
   background-color: white;
+  color: black;
 
 }
 
-/* Homepage background image */
+.nav-item {
+  color: black;
+}
+
+/* ----------------Index------------------- */
 
 body {
-  background-image: url("../images/background/index3.jpeg");
+  background-image: url("../images/background/indexpicture.jpeg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -17,13 +25,24 @@ body {
 footer {
   position: fixed;
   width: 100%;
-  left: 0;
-  bottom: 0;
-  background-color: brown;
-  color: white;
-  text-align: center;
 }
 
+.bg-light {
+  background-color: white;
+}
+
+.text-center {
+  color: black;
+}
+/* ----------------location----------------- */
+
+.location-bg {
+  background-image: url("../images/background/location1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /* nutrition background colors and image
 #nutrition-bg {
