@@ -1,36 +1,31 @@
+.navbar {
+  font-size: large;
+  background-color: white;
 
+}
 
 /* Homepage background image */
 
-
-body, html {
-    height: 100%;
+body {
+  background-image: url("../images/background/index3.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#homepage-bg {
-    
-    background-image: url("../images/background/Lemonback.jpg"); 
-    
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
 
-  }
-  
-  .footer-down {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: brown;
-    color: white;
-    text-align: center;
-  }
-  
-    
 
-/* nutrition background colors and image */
+/* nutrition background colors and image
 #nutrition-bg {
     
     background-image: url("../images/background/locationBg.jpg"); 
@@ -46,7 +41,7 @@ body, html {
 .col-bg {
   color: white;
 }
-/*About background image */
+/*About background image 
 #about-bg {
   background-image: url("../images/background/aboutBg.jpg"); 
     
@@ -56,7 +51,7 @@ body, html {
   background-size: cover;
 
 }
-/* Location backgroudn image */
+/* Location backgroudn image 
 #location-bg {
 
   background-image: url("../images/background/location2bg.jpg"); 
@@ -68,7 +63,7 @@ body, html {
 
 }
 
-/* Oreder background image and details*/
+/* Oreder background image and details
 
 #order-bg {
   
@@ -104,7 +99,7 @@ body, html {
       text-align: center; 
     }
 
-/* Calculator*/
+/* Calculator
 
 .col {
     padding: 50px;
@@ -171,23 +166,9 @@ body, html {
   
   
 
-/* Navbar adjustments*/
 
-.nav-item {
 
-    font-family: 'Architects Daughter', cursive;
-    font-size:x-large;
-    
-}
-.color-bl {
-    color:black;
-}
-
-.color-yl {
-    color: rgba(212, 212, 17, 0.993);
-}
-
-/* receipi calculator */
+/* receipi calculator 
 
 .Recipe-IngredientList {
   width: 250px;
@@ -252,4 +233,4 @@ margin: auto;
 .lm-title {
   font-family: 'Times New Roman', Times, serif;
   font-size: x-large;
-}
+}*/
