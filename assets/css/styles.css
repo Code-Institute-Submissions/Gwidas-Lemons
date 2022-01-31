@@ -14,7 +14,7 @@
 
 /* ----------------Index------------------- */
 
-body {
+.home-bg {
   background-image: url("../images/background/indexpicture.jpeg");
   background-size: cover;
   background-position: center;
@@ -43,6 +43,10 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+#map { position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+
+
 
 /* nutrition background colors and image
 #nutrition-bg {
