@@ -44,7 +44,18 @@ footer {
   background-attachment: fixed;
 }
 
-#map { position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+#map { 
+ height: 500px;
+ width: 60%; 
+ float: left;
+ margin-bottom: 100px;
+ border: solid;
+ }
+
+ .container-lg {
+   position: absolute;
+   bottom: 0;
+ }
 
 
 
