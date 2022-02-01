@@ -45,16 +45,18 @@ footer {
 }
 
 #map { 
- height: 500px;
- width: 60%; 
- float: left;
- margin-bottom: 100px;
- border: solid;
- }
+  height: 465px;
+  width: 90%; 
+  float: left;
+  border: solid;
+  }
 
  .container-lg {
-   position: absolute;
-   bottom: 0;
+  position: absolute;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: 80px;
+
  }
 
 
