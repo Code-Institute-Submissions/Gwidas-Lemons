@@ -21,7 +21,7 @@ var map = L.map('map').setView([0, 0], 1);
       marker.bindPopup("<b>Lemon Farm Albacete Spain</b><br> This our new born child farm founded in 2015 great palce to visit our local shop where you can buy lemons and lemonade. Custom made tools also availible for purches").openPopup();
 
       var popup = L.popup();
-      38.956561, -1.840105
+      
       function onMapClick(e) {
           popup
               .setLatLng(e.latlng)
