@@ -59,7 +59,15 @@ footer {
 
  }
 
+/*--------- nutrition-bg --------*/ 
 
+.nutrition-bg {
+  background-image: url("../images/background/nutrition1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /* nutrition background colors and image
 #nutrition-bg {
