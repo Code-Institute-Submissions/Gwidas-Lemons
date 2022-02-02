@@ -81,6 +81,16 @@ footer {
 
 }
 
+/* ----------------About page----------------- */
+.about-bg {
+
+  background-image: url("../images/background/about.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
 
 /* nutrition background colors and image
 #nutrition-bg {
