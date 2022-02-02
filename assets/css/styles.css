@@ -59,7 +59,7 @@ footer {
 
  }
 
-/*--------- nutrition-bg --------*/ 
+/*--------- nutrition page --------*/ 
 
 .nutrition-bg {
   background-image: url("../images/background/nutrition1.jpg");
@@ -68,6 +68,19 @@ footer {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/* ----------------Oreder page----------------- */
+
+.order-bg {
+ 
+  background-image: url("../images/background/order.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
 
 /* nutrition background colors and image
 #nutrition-bg {
