@@ -13,13 +13,22 @@
 }
 
 /* ----------------Index------------------- */
+body, html {
+  height: 79%;
+}
 
 .home-bg {
   background-image: url("../images/background/indexpicture.jpeg");
-  background-size: cover;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.navbar, .bg-light {
+
+  font-family: 'Alfa Slab One', cursive;
 }
 
 footer {
