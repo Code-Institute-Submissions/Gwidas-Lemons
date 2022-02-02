@@ -31,4 +31,31 @@ var map = L.map('map').setView([0, 0], 1);
       
       map.on('click', onMapClick);
 
-   
+
+
+// Recipe calculator 
+var computeServing = function(serving) {
+  $('.js-recipeIngredient').each(function(index, item) {
+    $(item).children('span').html($(item)[0].dataset.basevalue * serving)
+  })
+}
+$('#servingInput').on('change', function() {
+  computeServing($(this).val())
+})
+$('.js-decreaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(currentServing - 1)
+  computeServing(currentServing - 1)
+})
+$('.js-increaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(parseInt(currentServing) + 1)
+  computeServing(parseInt(currentServing) + 1)
+})
+computeServing(1);
+
+
+      /*steps*/
+$( function() {
+  $( "#lemon" ).accordion();
+} );
