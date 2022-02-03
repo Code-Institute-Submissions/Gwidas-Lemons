@@ -68,7 +68,7 @@ footer {
 
  }
 
-/*--------- nutrition page --------*/ 
+/*----------------------------------- nutrition page ---------------------------------------*/ 
 
 .nutrition-bg {
   background-image: url("../images/background/nutrition1.jpg");
@@ -78,11 +78,17 @@ footer {
   background-attachment: fixed;
 }
 
+/* Calculator*/
 .container {
   max-width: 400px;
   margin: 10vh auto 0 auto;
-  box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+  box-shadow: 0px 0px 43px 17px rgb(68, 68, 68);
   background-color: white;
+  position: absolute;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+  border: solid;
+  right: 5rem;
 }
 
 #display {
@@ -114,8 +120,8 @@ footer {
 }
 
 #equal {
-  background-color: rgb(85, 85, 255);
-  color: white;
+  background-color: rgb(239, 255, 9);
+  color: black;
 }
 
 .button:hover {
