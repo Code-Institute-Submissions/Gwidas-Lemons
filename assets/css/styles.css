@@ -72,7 +72,7 @@ footer {
 /*----------------------------------- nutrition page ---------------------------------------*/ 
 
 .nutrition-bg {
-  background-image: url("../images/background/lemonnr4.jpg");
+  background-image: url("../images/background/formula.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,6 +166,23 @@ footer {
   border: solid;
   margin-left: 5rem;
   margin-top: 10rem;
+}
+
+body {
+  background: #f4f4f4;
+  
+}
+
+.banner {
+  background: #e7d10d;
+  background: -webkit-linear-gradient(to right, #1b0c2e, #cf8bf3, #fdb99b);
+  background: linear-gradient(to right, #c3bdcc, #cdc8cf, #fde722);
+  font-family: 'Alfa Slab One', cursive;
+  
+}
+
+.display-4 {
+  color: #1b0c2e;
 }
 
 
