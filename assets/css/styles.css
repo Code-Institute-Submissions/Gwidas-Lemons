@@ -1,4 +1,5 @@
 
+
 /*--------Navbar----------*/
 
 .navbar {
@@ -71,7 +72,7 @@ footer {
 /*----------------------------------- nutrition page ---------------------------------------*/ 
 
 .nutrition-bg {
-  background-image: url("../images/background/lemonscale.jpg");
+  background-image: url("../images/background/lemonnr4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,6 +167,8 @@ footer {
   margin-left: 5rem;
   margin-top: 10rem;
 }
+
+
 
 /* ----------------Oreder page----------------- */
 

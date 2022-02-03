@@ -28,6 +28,8 @@ buttons.map( button => {
     });
 });
 
-var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
-    container: 'body'
-  })
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+
+
