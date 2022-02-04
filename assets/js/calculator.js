@@ -99,7 +99,7 @@ buttons.map( button => {
     $("[data-ripple]").Ripple_Button();
   })();
   
-
+// BMI Calculator
   function calculate(){
     
       var bmi;
