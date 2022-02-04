@@ -27,7 +27,7 @@ body, html {
   
 }
 
-.navbar, .bg-light {
+.navbar, .bg-light, .container {
 
   font-family: 'Alfa Slab One', cursive;
 }
@@ -227,7 +227,7 @@ padding-bottom: 4rem;
   transition: 0.5s ease-in-out;
 }
 
-/* lemonade text */
+/* instruction text */
 
 body {
   margin: 0;
@@ -236,26 +236,27 @@ body {
 }
 
 
-.container {
+.container-sm {
+  position: absolute;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+  left: -200px;
   padding-right: 15px;
   padding-left: 15px;
-  
-  margin-right: 100rem;
-  margin-top: 5rem;
-  padding-top: 2rem;
+  padding-top: 10rem;
 }
 @media (min-width: 768px) {
-  .container {
+  .fcontainer-sm {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .container {
+  .fcontainer-sm {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .container-sm {
     width: 1170px;
   }
 }
@@ -362,9 +363,82 @@ body {
     width: 92%;
   }
 }
+/* instruction end */
 
 
-/* lemonade end */
+/*-------BMI--------*/
+body{
+  height: 100vh;
+  background: #046db9;
+}
+.container {
+  background-color: #ffffff;
+  padding: 30px 30px;
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 40%;
+  right: -5%;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+}
+.container h1{
+background: yellow;
+color: white;
+text-align: center;
+font-size: 23px;
+letter-spacing: 1px;
+margin-top: -30px;
+margin-left: -30px;
+margin-right: -30px;
+margin-bottom: 40px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.row span{
+  font-weight: 500;
+}
+input[type="range"]{
+  width: 70%;
+  height: 3.5px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #dcdcdc;
+  border-radius: 3px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #1c1c1c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#result{
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #0be881;
+}
+#category{
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.display{
+box-shadow: 0 0 20px rgba(0,139,253,0.25);
+margin-bottom: 60px;
+}
+
+
 /* ----------------About page----------------- */
 .about-bg {
 
