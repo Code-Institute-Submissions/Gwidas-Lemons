@@ -185,6 +185,34 @@ body {
   color: #1b0c2e;
 }
 
+.lead {
+  color: #fde722;
+}
+
+
+.col-xl-3 {
+  flex: row;
+  display: flex;
+  padding: 10px;
+  
+}
+
+.img-fluid {
+  flex: 0 0 33.333%;
+  display: flex;
+  padding: 10px;
+  
+}
+
+.px-lg-5 {
+
+padding-bottom: 4rem;
+}
+
+
+  
+
+
 
 
 /* ----------------Oreder page----------------- */
