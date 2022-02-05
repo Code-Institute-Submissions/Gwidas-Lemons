@@ -27,7 +27,7 @@ body, html {
   
 }
 
-.navbar, .bg-light, .container-sm, .container h1 {
+.navbar, .bg-light, .container-sm, .container h1, .wrapper {
 
   font-family: 'Alfa Slab One', cursive;
 }
@@ -44,6 +44,45 @@ footer {
 .text-center {
   color: black;
 }
+
+.wrapper {
+  
+  --blur: 5;
+  
+  font-size: 5rem;
+  margin:1rem 0;
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  border-radius:1rem;
+  padding:1rem 0;
+  margin-right: 62rem;
+  margin-top: 5rem;
+  
+}
+
+.blurred-wrapper {
+  
+  position: absolute;
+  filter: blur(1rem);
+  
+  transform: scale(
+    var(--blur),
+    0.001
+  )
+    
+}
+
+.blurred {
+  
+  transform: scale(
+    calc( 1/var(--blur) ),
+    1000
+  )
+    
+}
+
 /* ----------------location----------------- */
 
 .location-bg {
