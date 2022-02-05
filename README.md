@@ -11,8 +11,9 @@
 ### "Delicious lemons".
 First of all who doesn't like lemons! 
 Lemons are the source of health and happiness. 
-This webpage makes it easy to order lemons and maybe understand more about this amazing fruit.
-You will find plenty of information about lemons and you will get the chance to learn how to make Lemonade! 
+On this page you will find information about lemons and why they are good for you.
+You will be able to chekc out location of some farms on the map and calculate your BMI for health purpuse.
+
 
  # --------------------------------------------
 
